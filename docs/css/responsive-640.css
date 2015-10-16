@@ -1,0 +1,157 @@
+@charset "utf-8";
+
+/*=================================================================================================*/
+/*============================================ 640 px ============================================*/
+/*=================================================================================================*/
+
+@media screen and (max-width: 999px) {
+	
+/*============================================*/
+/*              TYPOGRAPHY START              */
+/*============================================*/
+
+h1{
+	font-size: 40px;
+	line-height: 45px;
+	text-align: left;
+	margin-left: 161px;
+	margin-top: 45px;}
+h1 br{
+	display: none;}
+.footer-title{
+	text-align: center;}
+
+/*============================================*/
+/*               TYPOGRAPHY END               */
+/*============================================*/
+
+/*============================================*/
+/*            FORMS STYLES START              */
+/*============================================*/
+
+.form-columns{
+	width: 320px;
+	padding: 44px 60px 0;}
+.form-columns .column,
+.form-columns .column:first-child{
+	margin-left: 0;
+	width: auto;
+	float: none;}
+.form-columns .form-title{
+	text-align: center;}
+
+/*============================================*/
+/*             FORMS STYLES END               */
+/*============================================*/
+
+/*============================================*/
+/*            GENERAL STYLES START            */
+/*============================================*/
+
+.content-centered{
+	width: 600px;}
+
+/*============================================*/
+/*             GENERAL STYLES END             */
+/*============================================*/
+
+/*============================================*/
+/*            HEADER STYLES START             */
+/*============================================*/
+
+.outer-wrapper-header .block-slogan{
+	width: 175px;}
+
+/*============================================*/
+/*             HEADER STYLES END              */
+/*============================================*/
+
+/*============================================*/
+/*             BLOCKS STYLES START            */
+/*============================================*/
+
+/******* Item block start *******/
+.wrapper-item{
+	padding: 96px 0 40px;}
+	
+.wrapper-item .column-img{
+	float: none;
+	width: auto;
+	padding-bottom: 40px;}
+.wrapper-item .column-text{
+	float: none;
+	width: auto;
+	padding-right: 0;
+	text-align: center;}
+.wrapper-item.odd-child .column-img{
+	float: none;}
+.wrapper-item.odd-child .column-text{
+	float: none;
+	padding-left: 0;
+	padding-right: 0;}
+/******* Item block end *******/
+
+/******* Order block start *******/
+.wrapper-orders{
+	width: 600px;
+	margin: 0 auto -73px;}
+.order-img{
+	width: 285px;}
+.order-logo{
+	width: 250px;}
+.order-info{
+	width: 255px;}
+/******* Order block end *******/
+
+/******* Equation block start *******/
+.block-equation{
+	width: 250px;
+	margin: 0 31px 124px 35px;
+	color: #ffffff;
+	position: relative;}
+.block-equation:before{
+	left: 50%;
+	margin-left: -15px;
+	top: -60px;}
+.block-equation:after{
+	left: 50%;
+	margin-left: -15px;
+	top: -73px;}
+.block-equation:first-child:before,
+.block-equation:first-child:after{
+	display: none;}
+
+.equation-message{
+	padding-left: 0;
+	text-align: center;}
+.equation-message:before,
+.equation-message br{
+	display: none;}
+.equation-message .button{
+	margin-top: 33px;
+	margin-left: -11px;}
+/******* Equation block end *******/
+
+/******* Contacts block start *******/
+.wrapper-content .block-contacts .phone{
+	font-size: 70px;
+	line-height: 80px;
+	padding-top: 50px;
+	padding-bottom: 8px;}
+/******* Contacts block end *******/
+
+/*============================================*/
+/*             BLOCKS STYLES START            */
+/*============================================*/
+
+/*============================================*/
+/*            FOOTER STYLES START             */
+/*============================================*/
+
+
+
+/*============================================*/
+/*             FOOTER STYLES END              */
+/*============================================*/
+	
+}

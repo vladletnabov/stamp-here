@@ -1,0 +1,28 @@
+@charset "utf-8";
+/* CSS Document */
+
+.button,
+.bg-blue,
+.form-column,
+.form-columns,
+.tabs-control .control,
+.list-variants .variant:before,
+.problem:before{
+	behavior:url(libraries/PIE.htc);}
+a{
+	//color:expression(this.parentNode.currentStyle['color']);}
+.inline{
+	*display: inline;
+	zoom: 1;
+	//margin-right: 0;}
+.button.inline{
+	*display: inline;}
+.button input[type="button"],
+.button input[type="submit"],
+.button input[type="reset"],
+.styled-input-file input[type="file"]{
+	filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);}
+.overlay{
+	background: opacity\0;
+	zoom: 1;
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#b6000000,endColorstr=#b6000000);}
