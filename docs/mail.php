@@ -33,7 +33,7 @@ $_POST['point'],
 $_POST['comment']
 );
 $from = 'robot@stamp-here.ru';
-$email_to='123@pechati.ru';
+$email_to='zakaz@stamp-here.ru';
 //$email_to='lauramohr@yandex.ru';
 $subj='Заявка с сайта "stamp-here.ru"';
 if ($_FILES['file']['name']) {
