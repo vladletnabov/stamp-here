@@ -514,7 +514,7 @@ $(document).ready(function(){
 			
 			var office_28 = new ymaps.Placemark([55.817002,37.340193], {
 				balloonContentHeader: 'Красногорск',
-				balloonContentBody: 'Железнодорожный пер., д. 1а<br>Тел.: (901) 57-57-074'
+				balloonContentBody: 'Железнодорожный пер., д. 1а<br>Тел.: (495) 506-22-77'
 			},
 			{ 
 				iconLayout: 'default#image',
